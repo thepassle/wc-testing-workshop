@@ -4,6 +4,8 @@
 
 Welcome to the testing web components workshop! In this repository you'll find a series of assignments to get you up and running and learn how to unit test your web components in no-time!
 
+Here's a link to the slides: https://docs.google.com/presentation/d/1AVP0Y2i74gWTHxNMgdc3IK0YpjFrfejCwkl14LSK2bk/edit?usp=sharing
+
 ## 🚀 Getting started
 
 To get started:
