@@ -1,0 +1,35 @@
+{
+  "scripts": {
+    "start": "web-dev-server --app-index index.html --node-resolve --open --watch",
+    "test:assignment-1": "web-test-runner --node-resolve --coverage --files assignments/assignment-1/test/my-counter.test.js",
+    "test:assignment-1:watch": "web-test-runner --node-resolve --coverage --files assignments/assignment-1/test/my-counter.test.js --watch",
+    "test:assignment-1:solution": "web-test-runner --node-resolve --coverage --files assignments/assignment-1/solution/*.test.js",
+    "test:assignment-2": "web-test-runner --node-resolve --coverage --files assignments/assignment-2/test/my-counter.test.js",
+    "test:assignment-2:watch": "web-test-runner --node-resolve --coverage --files assignments/assignment-2/test/my-counter.test.js --watch",
+    "test:assignment-2:solution": "web-test-runner --node-resolve --coverage --files assignments/assignment-2/solution/*.test.js",
+    "test:assignment-3": "web-test-runner --node-resolve --coverage --files assignments/assignment-3/test/my-counter.test.js",
+    "test:assignment-3:watch": "web-test-runner --node-resolve --coverage --files assignments/assignment-3/test/my-counter.test.js --watch",
+    "test:assignment-3:solution": "web-test-runner --node-resolve --coverage --files assignments/assignment-3/solution/*.test.js",
+    "test:assignment-4": "web-test-runner --node-resolve --coverage --files assignments/assignment-4/test/my-counter.test.js",
+    "test:assignment-4:watch": "web-test-runner --node-resolve --coverage --files assignments/assignment-4/test/my-counter.test.js --watch",
+    "test:assignment-4:solution": "web-test-runner --node-resolve --coverage --files assignments/assignment-4/solution/*.test.js",
+    "test:assignment-5": "web-test-runner --node-resolve --coverage --files assignments/assignment-5/test/starwars-list.test.js",
+    "test:assignment-5:watch": "web-test-runner --node-resolve --coverage --files assignments/assignment-5/test/starwars-list.test.js --watch",
+    "test:assignment-5:solution": "web-test-runner --node-resolve --coverage --files assignments/assignment-5/solution/*.test.js"
+  },
+  "devDependencies": {
+    "@web/test-runner": "^0.7.41",
+    "@open-wc/testing": "^2.0.0",
+    "@web/dev-server": "^0.0.12"
+  },
+  "name": "wc-workshop",
+  "version": "0.0.0",
+  "description": "Webcomponent wc-workshop following open-wc recommendations",
+  "author": "wc-workshop",
+  "license": "MIT",
+  "dependencies": {
+    "lit-element": "^2.0.1",
+    "lit-html": "^1.0.0",
+    "sinon": "^9.2.1"
+  }
+}
