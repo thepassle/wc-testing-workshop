@@ -42,6 +42,16 @@ Finished all the assignments? Congrats!
 
 You can now go ahead and write tests for your budget app that you implemented earlier today.
 
+Some things to test could be:
+
+- Does the component calculate the correct leftover amount?
+- Does it add a transaction correctly?
+- Does it submit a transaction correctly?
+- Does it correctly update the progress/status bar width when transactions are updated?
+- Does it pass automated a11y tests?
+
+Can you think of more? 😉
+
 ## 📝 Tips
 
 ### Running tests in `watch mode`
