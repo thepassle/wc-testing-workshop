@@ -52,6 +52,35 @@ Some things to test could be:
 
 Can you think of more? 😉
 
+To get started, you can (in your budget app project directory, not this repository) run:
+```bash
+npm i -D @web/test-runner @open-wc/testing
+```
+
+Add the following script to your `package.json`:
+
+```json
+"test": "web-test-runner --node-resolve --files **/*.test.js"
+```
+
+Then you can add a test file called `budget-app.test.js` like so:
+```js
+import { expect, fixture, html } from '@open-wc/testing';
+import './budget-app.js'; // or whatever you named your file 🙂
+
+describe('budget-app', () => {
+  it('my test!', async () => {
+    const element = await fixture(html`<budget-app></budget-app>`);
+    // write your test
+  });
+});
+```
+
+To run your test, run the following command:
+```bash
+npm test
+```
+
 ## 📝 Tips
 
 ### Running tests in `watch mode`
